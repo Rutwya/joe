@@ -189,4 +189,5 @@ int main()
         }
         printf("Sate of car is: %s\n",look[ns-1]);
     }
+    return 0;
 }
