@@ -100,7 +100,7 @@ event read_event(int x)
 
 int main()
 {
-    char *lookup[40]={"engine_off","idle","gear1","gear2","gear3","reverse"};
+    char *look[40]={"engine_off","idle","gear1","gear2","gear3","reverse"};
     state ns= engine_off;;
     while(1)
     {
@@ -187,6 +187,6 @@ int main()
                 ns=idle;
             }break;
         }
-        printf("Sate of car is: %s\n",lookup[ns-1]);
+        printf("Sate of car is: %s\n",look[ns-1]);
     }
 }
